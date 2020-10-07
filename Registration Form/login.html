@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>login page</title>
+    <link rel="stylesheet" href="login_style.css"/>
+    
+</head>
+<body>
+    <script >
+       function valid()
+        {
+        alert("login successfully!")
+        }
+    </script>
+
+<center>
+    <form onsubmit="return valid()" action="#">
+        <div class="frame">
+         <div class="hd">
+            <h1>Login Form</h1>
+     
+         </div>
+        <div class="m">
+            <input id="u" type="email" placeholder="E-mail" required  /><br><br>
+            <input id="password" type="password" placeholder="password" required /><br><br>
+            <button type="submit">Login</button>
+            <button type="reset">Reset</button>
+            <p>not registered yet? <a href="main.html">Register here</a></p>
+        </div>
+      
+        </div>
+     </form>
+      
+
+</center>
+    
+</body>
+</html>
